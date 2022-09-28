@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#d8e98b ,#eaffdc);
+}
+#mensagem {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#Topo{
+    display: flex;
+    align-items: center;
+    margin-right:10%;
+    margin-left: 10%;
+    height: 45px;
+    background: #c9e265;
+    border-radius: 25px;   
+    box-shadow: 0.5rem 0.1rem 1rem rgb(169, 206, 169);
+}
+
+#Topo img{
+    border-radius: 25px;
+
+}
+
+
+#Imagem1{
+    display: flex;
+    float: left;
+    
+}
+
+#Imagem2{
+    display: inline-flex;
+    float: right;
+    margin-top: -3.2%;
+    cursor: pointer;
+}
+#Imagem3{
+    cursor: pointer;
+    margin: 0.5%;
+}
+#T2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#T2 input{
+    font-size: x-large;
+    background-color: #7ed957;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+}
+#Topo2{
+    display: flex;
+    margin: 10px;
+    width: 80%;
+    background:#7ed957;
+    border-radius: 25px;
+
+}
+
+#Topo2_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Topo2_2 a{
+    font-weight: bold;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Imagens4{
+   margin-top: 10px; 
+    width: 50%;
+}
+
+#legumes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+div.gallery {
+
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    float: left;
+    width: 260px;
+    height: 280px;
+    /*border: 1px solid black;
+    border-radius: 25px;*/
+  }
+  
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #7ed957;
+    
+  }
+  
+  div.desc {
+    background: linear-gradient(#fffbdc,#cefaaa );
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #c9e265;
+   
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+  *{
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  footer{
+    margin-top: 10%;
+      border-radius: 15px;
+      float: left;
+      width: 100%;
+      background-image: url(imagens/rodapé3.png);
+      padding: 50px 0;
+  }
+  #container-footer{
+      max-width: 1400px;
+      padding: 0 4%;
+      margin: auto;
+  }
+  #row-footer{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .rodape{
+      width: 25%;
+      padding: 0 15px;
+  }
+  .rodape h2{
+      font-size: 22px;
+      color: rgb(67, 128, 80);
+      margin-bottom: 20px;
+      font-weight:  500;
+      position: relative;
+      text-transform: uppercase;
+  }
+  .rodape h3{
+      font-size: 20px;
+      color: rgb(67, 128, 80);
+      margin-bottom: 20px;
+      font-weight:  500;
+      position: relative;
+      text-transform: uppercase;
+  }
+  .rodape ul{
+      list-style: none;
+  }
+  .rodape ul li{
+      margin: 10px 0;
+  }
+  .rodape ul li a{
+      font-size: 16px;
+      
+      color: rgb(57, 97, 81);
+      text-decoration: none;
+      font-weight: 300;
+      display: block;
+      transition: all 0.3s ease;
+  }
+  
+  .rodape ul li a :hover{
+      color: #cecdcd;
+      padding-left: 10px;
+  }
+  a:visited{
+    color: rgb(67, 128, 80);
+}
